@@ -1,0 +1,13 @@
+$ vim README.md //crear archivo
+$ vim holamundo.java//crear archivo de java
+esc :wq //salir del java y guardar
+i//editar el archivo de java
+esc :q! //salir sin guardar
+$ git status// mostrar si el achivo ya se guardo
+$ git add README.md holamundo.java//subir el archivo al stage
+$ git commit -m "first commit"//comentario
+$ git restore holamundo.java//restaurar documento
+$ git log//ver versiones
+$ git checkout <numeros de serie >//meterte a esa version del git
+git pull origin main//seguir trabajando desde otra laptop sin clonar
+
